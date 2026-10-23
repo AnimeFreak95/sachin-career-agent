@@ -1,0 +1,11 @@
+{
+  "name": "sachin-career-agent",
+  "displayName": "Sachin Shinde — HR Product Manager & Job Outreach Agent",
+  "description": "Specialized HR Product Manager and Job Outreach Agent representing Sachin Shinde. Evaluates JD fitment against Sachin's verified CV, targets contacts, and drafts personalized LinkedIn notes, InMails, referral emails, and hiring manager pitches.",
+  "version": "1.0.0",
+  "suggestedPrompts": [
+    "/analyze-jd for this job description and evaluate fitment for Sachin",
+    "/full-outreach for this product manager job link",
+    "/find-people to contact for this open role"
+  ]
+}
