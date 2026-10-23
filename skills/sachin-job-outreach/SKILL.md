@@ -60,6 +60,9 @@ The embedded CV at [cv.md](./references/cv.md) is the only permitted source for 
 - **Immediate Joiner (Mandatory for ALL outreach):** For all outreach messages, connection notes, InMails, referral emails, forwardable blurbs, and hiring manager emails, explicitly mention that Sachin is an **immediate joiner** (available to join immediately / 0-day notice period) so that his profile is given priority.
 - **Pune Location Advantage:** Whenever the job posting or role location is **Pune** (or Pune hybrid/on-site), explicitly state that Sachin is **already based out of Pune** (e.g., *"I am already based out of Pune"*, or for third-person blurbs: *"already based out of Pune"*), removing any relocation friction or delay.
 
+### Direct Contact Details (Mobile Number)
+- **Mobile Number in Messages:** Always include Sachin's mobile number (**`+91 8149408727`**) in the sign-off, signature, or contact line of outreach messages (InMails, Referral Emails, Direct Hiring Manager Pitch Emails, and LinkedIn Connection Notes when space permits within the 300-char limit) so recruiters and hiring managers can reach out directly.
+
 ---
 
 ## Embedded Candidate CV (Ground Truth)
@@ -350,61 +353,80 @@ Ask the user to confirm which targets they want outreach drafts for.
 > **Mandatory Across All Channels:**
 > 1. **Immediate Joiner:** Explicitly mention that Sachin is an immediate joiner (0-day notice period) so the profile is prioritized.
 > 2. **Pune Location:** If the job is based in Pune (or Pune hybrid/on-site), explicitly mention: *"I am already based out of Pune"*.
+> 3. **Direct Contact (Mobile):** Include Sachin's mobile number (**`+91 8149408727`**) in sign-offs and contact lines so recruiters can reach out immediately.
+> 4. **Copy Box Cleanliness:** Character count and word count must be placed **outside and below** the copyable code block so the user copies only the message text.
 
 ### LinkedIn Connection Note
 - Strictly under 300 characters, including spaces, punctuation, and line breaks.
 - Mention role, shared context, or a direct problem the recipient/team is solving.
-- Include immediate joiner status (e.g., *"Immediate joiner (0-day notice)"*). If Pune role, state *"already based in Pune"*.
+- Include immediate joiner status (e.g., *"Immediate joiner (0-day notice)"*). If Pune role, state *"already based in Pune"*. Include mobile number if character budget allows.
 - Include 1 relevant proof point only if it fits naturally.
 - End with a light, non-pushy connect request.
-- Format:
-```text
-[Connection note]
+- Format (count strictly OUTSIDE the code block):
 
-Character count: [X]/300
+```text
+[Connection note text ready to copy]
 ```
+Character count: [X]/300
 
 ### LinkedIn Premium / InMail
 - Subject line: clear, concise, non-clickbait.
 - Body: strictly under 150 words.
 - Brief human opening, 1–2 quantifiable impact points relevant to the specific JD.
 - Highlight immediate joiner status (0-day notice). If Pune role, state *"I am already based out of Pune"*.
+- Include sign-off with mobile number (`+91 8149408727`).
 - Low-friction ask (e.g. 10-minute chat).
-- Format:
+- Format (word count strictly OUTSIDE the code block):
+
 ```text
 Subject: [Subject line]
 
 [InMail body]
 
-Word count: [X]/150
+Best regards,
+Sachin Shinde
++91 8149408727 | mr.sachinmshinde@gmail.com
 ```
+Word count: [X]/150
 
 ### Referral Outreach Email
 - Explicit but low-pressure ask. Exact role title and req ID when available.
-- Main email under 150 words. Highlight immediate joiner status (and Pune location if applicable).
+- Main email under 150 words. Highlight immediate joiner status, mobile number, and Pune location if applicable.
 - Clear, easy ask: referral, forward to recruiter, or advice on the right contact.
-- Forwardable blurb: written strictly in third person, self-contained, 3–4 sentences summarizing Sachin's core impact, explicitly noting immediate joiner status (and *"already based out of Pune"* if Pune role).
-- Format:
+- Forwardable blurb: written strictly in third person, self-contained, 3–4 sentences summarizing Sachin's core impact, explicitly noting immediate joiner status, mobile number, and *"already based out of Pune"* if Pune role.
+- Format (word count strictly OUTSIDE the code block):
+
 ```text
 Subject: [Role Title] + [Requisition ID, if available] + Referral Request
 
 [Personal note to contact/alumni with an easy ask]
 
+Best,
+Sachin Shinde
++91 8149408727 | mr.sachinmshinde@gmail.com
+
 Forwardable blurb:
 
-[3–4 sentence third-person summary of Sachin's core impact, ready to forward to a recruiter or hiring manager]
+[3–4 sentence third-person summary of Sachin's core impact including contact +91 8149408727]
 ```
+Word count: [X]/150
 
 ### Direct Hiring Manager Pitch Email
 - Problem-focused subject line addressing a specific product area from the JD.
 - Connect past work directly to the immediate need (LLM evaluation, onboarding optimization, KYC automation, payment flows, compliance controls).
 - Highlight immediate joiner status without transition delay (and *"already based out of Pune"* if Pune role).
+- Include sign-off with mobile number (`+91 8149408727`).
 - Specific, low-friction call to action.
 - Format:
+
 ```text
 Subject: [Problem-focused subject line]
 
 [Email body]
+
+Best regards,
+Sachin Shinde
++91 8149408727 | mr.sachinmshinde@gmail.com | Pune, India
 ```
 
 ---
@@ -434,3 +456,5 @@ Before returning any output, verify:
 12. The final output is ready to send with minimal editing.
 13. Immediate joiner availability ("immediate joiner / 0-day notice period") is explicitly stated in all outreach notes, InMails, referral emails, blurbs, and pitches so the profile is prioritized.
 14. If the role/job is based in Pune (or Pune hybrid/on-site), explicitly states that Sachin is "already based out of Pune".
+15. Sachin's mobile number (+91 8149408727) is included in message signatures/contact lines so recipients can reach out directly.
+16. Character counts and word counts are placed strictly OUTSIDE the copyable code blocks.

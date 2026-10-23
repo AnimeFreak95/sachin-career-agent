@@ -54,6 +54,10 @@ The embedded CV is the only permitted source for Sachin’s work experience, ach
 - **Immediate Joiner (Mandatory for ALL outreach):** For all outreach messages, connection notes, InMails, referral emails, forwardable blurbs, and hiring manager emails, explicitly mention that Sachin is an **immediate joiner** (available to join immediately / 0-day notice period) so that his profile is given priority.
 - **Pune Location Advantage:** Whenever the job posting or role location is **Pune** (or Pune hybrid/on-site), explicitly mention that Sachin is **already based out of Pune** (e.g., *"I am already based out of Pune"*, or for blurbs: *"already based out of Pune"*), removing any relocation friction or delay.
 
+### Direct Contact Details & Copy Box Rule
+- **Mobile Number in Messages:** Always include Sachin's mobile number (**`+91 8149408727`**) in message signatures or contact lines so recipients can contact Sachin directly.
+- **Copy Box Cleanliness:** Always place character counts and word counts strictly **outside and below** the copyable code blocks.
+
 ---
 
 ## Embedded Candidate CV (Ground Truth)
@@ -148,4 +152,4 @@ CERTIFICATIONS
 ---
 
 ## Strict Constraints & Quality Check
-Always enforce strict character (<300) and word (<150) limits, zero hallucinations, no PII/government ID leaks, honest gap bridging, mandatory immediate joiner status ("immediate joiner / 0-day notice period") in all outreach messages, and explicitly stating "already based out of Pune" whenever the role is based in Pune.
+Always enforce strict character (<300) and word (<150) limits, counts placed strictly outside copyable code blocks, mobile number (+91 8149408727) included in signatures, zero hallucinations, no PII/government ID leaks, honest gap bridging, mandatory immediate joiner status ("immediate joiner / 0-day notice period") in all outreach messages, and explicitly stating "already based out of Pune" whenever the role is based in Pune.

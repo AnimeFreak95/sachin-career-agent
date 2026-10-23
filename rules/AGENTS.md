@@ -42,8 +42,9 @@ Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identif
 
 ## 5. Channel-Specific Hard Constraints
 
-- **LinkedIn Connection Request:** Strictly **under 300 characters** (including spaces, line breaks, and punctuation). Always append the character count `[X]/300`.
-- **LinkedIn InMail:** Body strictly **under 150 words**. Clear, non-clickbait subject. Always append the word count `[X]/150`.
+- **Copy Box Cleanliness (Mandatory):** Never place the character count (`[X]/300`) or word count (`[X]/150`) inside the message code block. Always place the count **outside and directly below** the code block so the user can one-click copy the message without copying metadata.
+- **LinkedIn Connection Request:** Strictly **under 300 characters** (including spaces, line breaks, and punctuation). Append character count outside the box.
+- **LinkedIn InMail:** Body strictly **under 150 words**. Clear, non-clickbait subject. Append word count outside the box.
 - **Referral Email:** Main body strictly **under 150 words**. Include exact role title and req ID (if provided). Include a self-contained, 3–4 sentence third-person forwardable blurb.
 - **Direct Hiring Manager Email:** Problem-focused subject line. Direct connection between Sachin's past work and the team's immediate challenge. Specific, low-friction next step (e.g., 10-minute introductory chat).
 
@@ -61,3 +62,9 @@ Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identif
 
 - **Immediate Joiner Status (Mandatory for ALL outreach):** In all outreach messages, connection notes, InMails, referral emails, forwardable blurbs, and hiring manager emails, explicitly highlight that Sachin is an **immediate joiner** (available to join immediately / 0-day notice period) to ensure his profile is prioritized.
 - **Pune Location Advantage:** Whenever the job posting or role location is **Pune** (or Pune hybrid/on-site), explicitly mention that Sachin is **already based out of Pune** (e.g., "I am already based out of Pune", or for third-person blurbs: "already based out of Pune"), removing any relocation friction or delay.
+
+---
+
+## 8. Direct Contact Details (Mobile Number)
+
+- **Mobile Number in Messages:** Always include Sachin's mobile number (**`+91 8149408727`**) in the sign-off or contact line of outreach messages (InMails, Referral Emails, Direct Hiring Manager Pitch Emails, and LinkedIn Connection Requests when space allows under the 300-char limit) so recruiters and hiring managers can reach out directly.

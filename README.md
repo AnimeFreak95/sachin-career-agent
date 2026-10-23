@@ -27,6 +27,8 @@ This plugin turns Antigravity into an intelligent, honest, and high-converting C
 4. **Hard Limits Enforced**: LinkedIn notes are strictly < 300 characters; InMails and referral emails are strictly < 150 words.
 5. **Immediate Joiner Priority**: All outreach messages, notes, and emails explicitly highlight that Sachin is an immediate joiner (0-day notice period) so that his profile is prioritized.
 6. **Pune Location Advantage**: Explicitly highlights that Sachin is already based out of Pune whenever the role or company is located in Pune.
+7. **Clean Copy Boxes**: Character counts and word counts are placed outside the code blocks so users can copy clean message text directly.
+8. **Direct Mobile Reachout**: Sachin's mobile number (`+91 8149408727`) is included in sign-offs and contact lines for fast reachout.
 
 ---
 
