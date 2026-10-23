@@ -58,7 +58,7 @@ The embedded CV at [cv.md](./references/cv.md) is the only permitted source for 
 
 ### Availability & Location Positioning
 - **Immediate Joiner (Mandatory for ALL outreach):** For all outreach messages, connection notes, InMails, referral emails, forwardable blurbs, and hiring manager emails, explicitly mention that Sachin is an **immediate joiner** (available to join immediately / 0-day notice period) so that his profile is given priority.
-- **Pune Location Advantage:** If the job location is **Pune** (or Pune hybrid/on-site), explicitly highlight that Sachin is **based out of Pune**, removing any relocation friction.
+- **Pune Location Advantage:** Whenever the job posting or role location is **Pune** (or Pune hybrid/on-site), explicitly state that Sachin is **already based out of Pune** (e.g., *"I am already based out of Pune"*, or for third-person blurbs: *"already based out of Pune"*), removing any relocation friction or delay.
 
 ---
 
@@ -347,9 +347,14 @@ Ask the user to confirm which targets they want outreach drafts for.
 
 ## Message Formats & Constraints
 
+> **Mandatory Across All Channels:**
+> 1. **Immediate Joiner:** Explicitly mention that Sachin is an immediate joiner (0-day notice period) so the profile is prioritized.
+> 2. **Pune Location:** If the job is based in Pune (or Pune hybrid/on-site), explicitly mention: *"I am already based out of Pune"*.
+
 ### LinkedIn Connection Note
 - Strictly under 300 characters, including spaces, punctuation, and line breaks.
 - Mention role, shared context, or a direct problem the recipient/team is solving.
+- Include immediate joiner status (e.g., *"Immediate joiner (0-day notice)"*). If Pune role, state *"already based in Pune"*.
 - Include 1 relevant proof point only if it fits naturally.
 - End with a light, non-pushy connect request.
 - Format:
@@ -363,6 +368,7 @@ Character count: [X]/300
 - Subject line: clear, concise, non-clickbait.
 - Body: strictly under 150 words.
 - Brief human opening, 1–2 quantifiable impact points relevant to the specific JD.
+- Highlight immediate joiner status (0-day notice). If Pune role, state *"I am already based out of Pune"*.
 - Low-friction ask (e.g. 10-minute chat).
 - Format:
 ```text
@@ -375,9 +381,9 @@ Word count: [X]/150
 
 ### Referral Outreach Email
 - Explicit but low-pressure ask. Exact role title and req ID when available.
-- Main email under 150 words.
+- Main email under 150 words. Highlight immediate joiner status (and Pune location if applicable).
 - Clear, easy ask: referral, forward to recruiter, or advice on the right contact.
-- Forwardable blurb: written strictly in third person, self-contained, 3–4 sentences summarizing Sachin's core impact.
+- Forwardable blurb: written strictly in third person, self-contained, 3–4 sentences summarizing Sachin's core impact, explicitly noting immediate joiner status (and *"already based out of Pune"* if Pune role).
 - Format:
 ```text
 Subject: [Role Title] + [Requisition ID, if available] + Referral Request
@@ -392,6 +398,7 @@ Forwardable blurb:
 ### Direct Hiring Manager Pitch Email
 - Problem-focused subject line addressing a specific product area from the JD.
 - Connect past work directly to the immediate need (LLM evaluation, onboarding optimization, KYC automation, payment flows, compliance controls).
+- Highlight immediate joiner status without transition delay (and *"already based out of Pune"* if Pune role).
 - Specific, low-friction call to action.
 - Format:
 ```text
@@ -425,5 +432,5 @@ Before returning any output, verify:
 10. People and LinkedIn profiles are labeled with the correct confidence level.
 11. No person is contacted automatically.
 12. The final output is ready to send with minimal editing.
-13. Immediate joiner availability is explicitly stated in all outreach notes, InMails, referral emails, blurbs, and pitches.
-14. If the role/job is based in Pune, Sachin's Pune location is explicitly highlighted.
+13. Immediate joiner availability ("immediate joiner / 0-day notice period") is explicitly stated in all outreach notes, InMails, referral emails, blurbs, and pitches so the profile is prioritized.
+14. If the role/job is based in Pune (or Pune hybrid/on-site), explicitly states that Sachin is "already based out of Pune".

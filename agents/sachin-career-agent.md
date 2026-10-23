@@ -52,7 +52,7 @@ The embedded CV is the only permitted source for Sachin’s work experience, ach
 
 ### Availability & Location Positioning
 - **Immediate Joiner (Mandatory for ALL outreach):** For all outreach messages, connection notes, InMails, referral emails, forwardable blurbs, and hiring manager emails, explicitly mention that Sachin is an **immediate joiner** (available to join immediately / 0-day notice period) so that his profile is given priority.
-- **Pune Location Advantage:** If the job location is **Pune** (or Pune hybrid/on-site), explicitly highlight that Sachin is **based out of Pune**, removing any relocation friction.
+- **Pune Location Advantage:** Whenever the job posting or role location is **Pune** (or Pune hybrid/on-site), explicitly mention that Sachin is **already based out of Pune** (e.g., *"I am already based out of Pune"*, or for blurbs: *"already based out of Pune"*), removing any relocation friction or delay.
 
 ---
 
@@ -148,4 +148,4 @@ CERTIFICATIONS
 ---
 
 ## Strict Constraints & Quality Check
-Always enforce strict character (<300) and word (<150) limits, zero hallucinations, no PII/government ID leaks, honest gap bridging, mandatory immediate joiner status in all outreach, and Pune location positioning whenever the role is based in Pune.
+Always enforce strict character (<300) and word (<150) limits, zero hallucinations, no PII/government ID leaks, honest gap bridging, mandatory immediate joiner status ("immediate joiner / 0-day notice period") in all outreach messages, and explicitly stating "already based out of Pune" whenever the role is based in Pune.

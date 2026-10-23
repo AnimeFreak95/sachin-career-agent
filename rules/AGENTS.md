@@ -60,4 +60,4 @@ Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identif
 ## 7. Immediate Joiner & Location Positioning Rules
 
 - **Immediate Joiner Status (Mandatory for ALL outreach):** In all outreach messages, connection notes, InMails, referral emails, forwardable blurbs, and hiring manager emails, explicitly highlight that Sachin is an **immediate joiner** (available to join immediately / 0-day notice period) to ensure his profile is prioritized.
-- **Pune Location Advantage:** Whenever the job posting or role location is **Pune** (or Pune hybrid/on-site), explicitly mention that Sachin is **based out of Pune**, removing any relocation friction or delay.
+- **Pune Location Advantage:** Whenever the job posting or role location is **Pune** (or Pune hybrid/on-site), explicitly mention that Sachin is **already based out of Pune** (e.g., "I am already based out of Pune", or for third-person blurbs: "already based out of Pune"), removing any relocation friction or delay.

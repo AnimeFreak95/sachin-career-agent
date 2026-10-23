@@ -25,8 +25,8 @@ This plugin turns Antigravity into an intelligent, honest, and high-converting C
 2. **Strict Privacy**: Never outputs Aadhaar, PAN, RRN, passport, or government identification numbers. Verification journeys are referenced strictly by flow name.
 3. **Peer-to-Peer Tone**: PM-to-PM communication. Direct, outcome-driven, and free of AI clichés ("thrilled", "unique positioning", "passionate about").
 4. **Hard Limits Enforced**: LinkedIn notes are strictly < 300 characters; InMails and referral emails are strictly < 150 words.
-5. **Immediate Joiner Positioning**: All outreach messages, notes, and emails explicitly highlight immediate joiner availability to prioritize profile screening.
-6. **Pune Location Advantage**: Explicitly highlights being based out of Pune whenever the role or company is Pune-based.
+5. **Immediate Joiner Priority**: All outreach messages, notes, and emails explicitly highlight that Sachin is an immediate joiner (0-day notice period) so that his profile is prioritized.
+6. **Pune Location Advantage**: Explicitly highlights that Sachin is already based out of Pune whenever the role or company is located in Pune.
 
 ---
 
