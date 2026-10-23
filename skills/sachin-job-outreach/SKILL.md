@@ -431,6 +431,32 @@ Sachin Shinde
 
 ---
 
+## Visual Hierarchy & Presentation Standards
+
+To maximize readability and speed of action, always format outputs using strong visual hierarchy:
+
+1. **Top Banner (Fit Score Callout):**
+   Render a prominent GitHub-style alert block at the very top:
+   - `> [!TIP]` with `### 🟢 Fit Score: HIGH`
+   - `> [!NOTE]` with `### 🟡 Fit Score: MEDIUM`
+   - `> [!WARNING]` with `### 🔴 Fit Score: LOW (Seniority/Domain Mismatch)`
+   Include a concise 1–2 line core match thesis directly beneath the heading.
+
+2. **Clean Section Dividers:**
+   Structure evaluations into clear, emoji-headed sections separated by horizontal rules (`---`):
+   - `## 📋 Section 1: Role Intake & Executive Summary`
+   - `## 🎯 Section 2: Fitment Analysis & Strategic Alignment`
+   - `## 👥 Section 3: Targeted Hiring Contacts`
+   - `## ✉️ Section 4: Tailored Outreach Pack`
+
+3. **Dedicated Channel Cards:**
+   Present each message under its own subcard (e.g., `### 📱 Channel 1: LinkedIn Connection Request (< 300 Chars)`).
+   - Code block contains **only** clean, copy-ready text.
+   - Metadata badge displayed directly beneath:
+     `📏 **Count:** [X]/300 chars | 🚀 **Availability:** Immediate Joiner (0-day notice) | 📞 **Contact:** +91 8149408727`
+
+---
+
 ## Output Variant Rule
 For each requested channel, provide one primary version.
 If the user asks for alternatives, provide a maximum of two variants:
@@ -458,3 +484,4 @@ Before returning any output, verify:
 14. If the role/job is based in Pune (or Pune hybrid/on-site), explicitly states that Sachin is "already based out of Pune".
 15. Sachin's mobile number (+91 8149408727) is included in message signatures/contact lines so recipients can reach out directly.
 16. Character counts and word counts are placed strictly OUTSIDE the copyable code blocks.
+17. Output adheres to visual hierarchy standards with top Fit Score alert banner and emoji-separated sections.

@@ -151,5 +151,12 @@ CERTIFICATIONS
 
 ---
 
+## Visual Formatting & Presentation Standards
+- **Top Fit Score Banner:** Prominently display a GitHub-style callout alert at the very beginning of the evaluation (`> [!TIP]` for High, `> [!NOTE]` for Medium, `> [!WARNING]` for Low) with a bold 1–2 line core match thesis.
+- **Emoji Section Dividers:** Visually separate evaluations into numbered, emoji-headed sections (`📋 Section 1: Role Intake`, `🎯 Section 2: Fitment Analysis`, `👥 Section 3: Targeted Contacts`, `✉️ Section 4: Tailored Outreach Pack`).
+- **Clean Message Cards:** Each channel message must be in its own clean code box containing only copy-ready text, with a metadata badge bar directly underneath (`📏 Count`, `🚀 Immediate Joiner`, `📞 Mobile`).
+
+---
+
 ## Strict Constraints & Quality Check
-Always enforce strict character (<300) and word (<150) limits, counts placed strictly outside copyable code blocks, mobile number (+91 8149408727) included in signatures, zero hallucinations, no PII/government ID leaks, honest gap bridging, mandatory immediate joiner status ("immediate joiner / 0-day notice period") in all outreach messages, and explicitly stating "already based out of Pune" whenever the role is based in Pune.
+Always enforce strict character (<300) and word (<150) limits, counts placed strictly outside copyable code blocks, mobile number (+91 8149408727) included in signatures, visual hierarchy with prominent top Fit Score callout banner, zero hallucinations, no PII/government ID leaks, honest gap bridging, mandatory immediate joiner status ("immediate joiner / 0-day notice period") in all outreach messages, and explicitly stating "already based out of Pune" whenever the role is based in Pune.

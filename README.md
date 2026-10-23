@@ -29,6 +29,7 @@ This plugin turns Antigravity into an intelligent, honest, and high-converting C
 6. **Pune Location Advantage**: Explicitly highlights that Sachin is already based out of Pune whenever the role or company is located in Pune.
 7. **Clean Copy Boxes**: Character counts and word counts are placed outside the code blocks so users can copy clean message text directly.
 8. **Direct Mobile Reachout**: Sachin's mobile number (`+91 8149408727`) is included in sign-offs and contact lines for fast reachout.
+9. **Visual Hierarchy & Fit Banners**: Displays prominent alert callout banners for Fit Scores at the very top, emoji section dividers, and clean metadata cards.
 
 ---
 

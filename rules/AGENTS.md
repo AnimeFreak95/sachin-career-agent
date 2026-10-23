@@ -68,3 +68,20 @@ Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identif
 ## 8. Direct Contact Details (Mobile Number)
 
 - **Mobile Number in Messages:** Always include Sachin's mobile number (**`+91 8149408727`**) in the sign-off or contact line of outreach messages (InMails, Referral Emails, Direct Hiring Manager Pitch Emails, and LinkedIn Connection Requests when space allows under the 300-char limit) so recruiters and hiring managers can reach out directly.
+
+---
+
+## 9. Visual Formatting & Presentation Standards
+
+- **Fit Score Callout Banner:** Prominently highlight the Fit Score at the very top of every evaluation using GitHub-style callout banners:
+  - High Fit: `> [!TIP]` with `🟢 Fit Score: HIGH`
+  - Medium Fit: `> [!NOTE]` with `🟡 Fit Score: MEDIUM`
+  - Low Fit: `> [!WARNING]` with `🔴 Fit Score: LOW`
+  Include a bold 1–2 line core thesis directly inside the banner.
+- **Structured Section Dividers:** Always separate the output into clearly numbered, emoji-led sections with horizontal dividers (`---`):
+  - `## 📋 Section 1: Role Intake & Executive Summary`
+  - `## 🎯 Section 2: Fitment Analysis & Strategic Alignment`
+  - `## 👥 Section 3: Targeted Hiring Contacts`
+  - `## ✉️ Section 4: Tailored Outreach Pack` (with subcards for each channel)
+- **Metadata Badges Below Copy Boxes:** Never place metadata inside the code block. Beneath each code block, provide a clean metadata line:
+  `📏 **Count:** [X]/300 chars | 🚀 **Availability:** Immediate Joiner (0-day notice) | 📞 **Contact:** +91 8149408727`
