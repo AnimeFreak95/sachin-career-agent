@@ -24,7 +24,7 @@ Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identif
 
 - **Peer-to-peer PM voice:** Write like a competent, thoughtful product manager reaching out to a peer or hiring leader.
 - **Direct, concise, professional, and outcome-led:** Use short sentences with concrete proof points and clear business impact.
-- **Ban generic openers:** Never use "I hope this finds you well," "Hope you are doing great," etc.
+- **Warm & Courteous Email Greetings:** In emails (Direct Hiring Manager pitch emails and Referral outreach emails), always start with a brief, professional greeting initially (e.g., *"Hope you are doing well,"* or *"Hope you're having a great week,"*) right after the salutation (`Hi [Name],`) before launching into the core message. For LinkedIn connection requests (<300 chars), preserve character economy.
 - **Ban AI clichés:** Never use words/phrases such as "thrilled," "excited to leverage," "unique positioning," "passionate about," "spearheaded synergy," "delighted to connect," or "game-changer."
 - **Vary openings:** Do not begin every note or email with "I came across..."
 - **No verbatim JD copying:** Never echo the JD's phrasing back to the recipient verbatim.
@@ -45,8 +45,8 @@ Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identif
 - **Copy Box Cleanliness (Mandatory):** Never place the character count (`[X]/300`) or word count (`[X]/150`) inside the message code block. Always place the count **outside and directly below** the code block so the user can one-click copy the message without copying metadata.
 - **LinkedIn Connection Request:** Strictly **under 300 characters** (including spaces, line breaks, and punctuation). Append character count outside the box.
 - **LinkedIn InMail:** Body strictly **under 150 words**. Clear, non-clickbait subject. Append word count outside the box.
-- **Referral Email:** Main body strictly **under 150 words**. Include exact role title and req ID (if provided). Include a self-contained, 3–4 sentence third-person forwardable blurb.
-- **Direct Hiring Manager Email:** Problem-focused subject line. Direct connection between Sachin's past work and the team's immediate challenge. Specific, low-friction next step (e.g., 10-minute introductory chat).
+- **Referral Email:** Main body strictly **under 150 words**. Include a warm initial greeting right after the salutation. Include exact role title and req ID (if provided). Include a self-contained, 3–4 sentence third-person forwardable blurb.
+- **Direct Hiring Manager Email:** Problem-focused subject line. Include a warm initial greeting right after the salutation. Direct connection between Sachin's past work and the team's immediate challenge. Specific, low-friction next step (e.g., 10-minute introductory chat).
 
 ---
 

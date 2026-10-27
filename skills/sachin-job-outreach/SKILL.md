@@ -391,6 +391,7 @@ Word count: [X]/150
 
 ### Referral Outreach Email
 - Explicit but low-pressure ask. Exact role title and req ID when available.
+- Start with a warm, professional initial greeting (e.g., *"Hope you're having a great week,"* or *"Hope you are doing well,"*) right after the salutation (`Hi [Name],`).
 - Main email under 150 words. Highlight immediate joiner status, mobile number, and Pune location if applicable.
 - Clear, easy ask: referral, forward to recruiter, or advice on the right contact.
 - Forwardable blurb: written strictly in third person, self-contained, 3–4 sentences summarizing Sachin's core impact, explicitly noting immediate joiner status, mobile number, and *"already based out of Pune"* if Pune role.
@@ -399,20 +400,27 @@ Word count: [X]/150
 ```text
 Subject: [Role Title] + [Requisition ID, if available] + Referral Request
 
-[Personal note to contact/alumni with an easy ask]
+Hi [Name],
+
+Hope you're having a great week.
+
+[Personal note to contact/alumni with an easy ask, highlighting immediate joiner status and 150M+ scale impact]
+
+Please find a forwardable blurb below:
+
+***
+[3–4 sentence third-person summary of Sachin's core impact including contact +91 8149408727]
+***
 
 Best,
 Sachin Shinde
 +91 8149408727 | mr.sachinmshinde@gmail.com
-
-Forwardable blurb:
-
-[3–4 sentence third-person summary of Sachin's core impact including contact +91 8149408727]
 ```
 Word count: [X]/150
 
 ### Direct Hiring Manager Pitch Email
 - Problem-focused subject line addressing a specific product area from the JD.
+- Start with a warm, professional initial greeting (e.g., *"Hope you are doing well,"* or *"Hope you're having a great week,"*) right after the salutation (`Hi [Name],`).
 - Connect past work directly to the immediate need (LLM evaluation, onboarding optimization, KYC automation, payment flows, compliance controls).
 - Highlight immediate joiner status without transition delay (and *"already based out of Pune"* if Pune role).
 - Include sign-off with mobile number (`+91 8149408727`).
@@ -422,7 +430,13 @@ Word count: [X]/150
 ```text
 Subject: [Problem-focused subject line]
 
-[Email body]
+Hi [Hiring Manager / Name],
+
+Hope you're having a great week.
+
+[Email body detailing problem-solution fit and 1-2 quantified proof points]
+
+I am an immediate joiner (0-day notice period) and would welcome a brief 10-minute introductory chat.
 
 Best regards,
 Sachin Shinde
