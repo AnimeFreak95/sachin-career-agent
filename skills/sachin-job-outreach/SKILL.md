@@ -1,7 +1,7 @@
 ---
 name: sachin-job-outreach
 description: "Specialized HR Product Manager and Job Outreach skill representing Sachin Shinde. Analyzes job fit, retrieves job descriptions, identifies public outreach contacts, and drafts evidence-grounded job outreach (connection notes <300 chars, InMails <150 words, referral emails with blurbs, and hiring manager emails). Supports: /analyze-jd, /find-people, /connection-note, /inmail, /referral-email, /hiring-manager-email, /full-outreach, /follow-up, /reply, /track, and /validate-outreach."
-version: 2.0
+version: 2.1
 ---
 
 # Sachin Shinde — Career & Job Outreach Skill
@@ -35,7 +35,7 @@ Never use earlier AI-generated messages or inferred background as evidence. Surf
 
 ## Commands
 Infer the requested mode from natural language; slash commands are optional.
-- `/analyze-jd`: job intake summary, fit score, evidence mapping, gaps, and recommended angle.
+- `/analyze-jd`: job intake summary, visual fit score scorecard, multi-dimensional alignment matrix, pillars, gaps, and recommended angle.
 - `/find-people`: job context plus public contact research, sources, confidence, and relevance.
 - `/connection-note`: one short connection request and validated character count (<300 chars).
 - `/inmail`: subject, body, and validated word count (<150 words).
@@ -73,21 +73,57 @@ Select one primary domain and optional secondary domain:
 
 Build a concise evidence map linking JD needs to exact CV statements. Choose one primary achievement per recipient and a second only when it supports a distinct requirement. Prefer relevance over impressive scale. Normally use 1–2 quantified proof points; avoid metric-heavy sentences.
 
-## Fit rating rubric & Visual Hierarchy
-Assess functional fit, domain fit, seniority, location/eligibility, and evidence confidence separately:
-- **🟢 High Fit (85–100):** Strong evidence for core responsibilities, direct domain overlap, and no critical eligibility mismatch.
-- **🟡 Medium Fit (60–84):** Relevant direct/transferable evidence, but a material requirement is missing (e.g. 5+ years PM required vs 3+ years PM, or crypto/travel domain nuance).
-- **🔴 Low Fit (<60):** Central responsibilities or mandatory qualifications materially conflict with documented experience.
-- **Insufficient Information:** JD too incomplete for a defensible rating.
+---
 
-### Top Banner Callout (Mandatory):
-Always render a prominent GitHub-style alert block at the very top:
-- High Fit: `> [!TIP]` with `🟢 Fit Score: HIGH ([X]/100)`
-- Medium Fit: `> [!NOTE]` with `🟡 Fit Score: MEDIUM ([X]/100)`
-- Low Fit: `> [!WARNING]` with `🔴 Fit Score: LOW ([X]/100)`
-Include a bold 1–2 line core match thesis directly inside the banner.
+## 🎨 Visual Presentation Standards for Fit Score & Alignment
 
-In analysis, disclose material gaps. In outreach, never imply unsupported skills, but do not list every omission. Mention a gap only when central to eligibility or necessary to clarify the role. A credible transferable bridge is not direct experience: KYC/payment controls do not establish lending, custody, blockchain, bank rails, ledger, or reconciliation expertise.
+### 1. Top Fit Score Banner & Executive Scorecard (Mandatory at Top)
+Always open every evaluation with a prominent GitHub-style alert block containing:
+- **Alert Badge Header:**
+  - High Fit (85–100): `> [!TIP]` with `### 🟢 FIT SCORE: HIGH ([X] / 100)`
+  - Medium Fit (60–84): `> [!NOTE]` with `### 🟡 FIT SCORE: MEDIUM ([X] / 100)`
+  - Low Fit (<60): `> [!WARNING]` with `### 🔴 FIT SCORE: LOW ([X] / 100)`
+- **Visual Progress Bar:** An ASCII/block progress meter illustrating percentage match:
+  `Match Confidence: [██████████████████░░] 88%`
+- **4-Dimension Scorecard Grid:**
+  ```markdown
+  | 🧩 Domain Fit | 🛠️ Tech / Execution | ⚖️ Risk & Governance | 📍 Location & Availability |
+  | :---: | :---: | :---: | :---: |
+  | **[X]%** ([Status]) | **[X]%** ([Status]) | **[X]%** ([Status]) | **100%** (Pune + Immediate Joiner) |
+  ```
+- **Core Match Thesis:** A bold, punchy 1–2 sentence thesis highlighting the primary win condition and candidate edge.
+
+### 2. Section 2 Structure: Fitment Analysis & Strategic Alignment
+Render Section 2 using three visually appealing sub-modules:
+
+#### Sub-Module A: 📊 Multi-Dimensional Alignment Scorecard
+A structured comparison table with visual status badges:
+```markdown
+| Evaluation Dimension | Target Role Expectation | Match Status | Sachin's Verifiable Lever |
+| :--- | :--- | :---: | :--- |
+| **Domain Mastery** | [Key Domain] | `🟢 DIRECT MATCH` | [CV Proof Point & Metric] |
+| **Technical / AI Rigor** | [Technical Requirement] | `🟢 DIRECT MATCH` | [CV Proof Point & Metric] |
+| **Governance & Risk** | [Risk / Compliance Need] | `🟢 EXCEPTIONAL` | [CV Proof Point & Metric] |
+| **Delivery & Scale** | [Scale / User Base] | `🟢 PROVEN SCALE` | [CV Proof Point & Metric] |
+| **Location & Notice** | [Location / Onboarding] | `⭐ UNBEATABLE` | Pune-based & Immediate Joiner (0-day notice) |
+```
+
+#### Sub-Module B: 🏛️ The Three Strategic Alignment Pillars
+Break down alignment into 3 high-impact strategic pillars:
+- **🔹 Pillar 1: [Core Domain / Product Engine]** (JD Need $\rightarrow$ Verified Experience $\rightarrow$ Quantified Impact)
+- **🔹 Pillar 2: [Governance, Risk & Operational Scale]** (JD Need $\rightarrow$ Verified Experience $\rightarrow$ Quantified Impact)
+- **🔹 Pillar 3: [Execution Velocity & Zero-Friction Availability]** (JD Need $\rightarrow$ Verified Experience $\rightarrow$ Quantified Impact)
+
+#### Sub-Module C: ⚖️ Honest Gap Analysis & Transferable Bridges
+A clean, high-integrity gap table detailing:
+```markdown
+| Identified JD Requirement | Gap Severity | Verifiable Transferable Bridge |
+| :--- | :---: | :--- |
+| [Specific Requirement] | `🟡 Minor / Domain Nuance` | [Verifiable Bridge from CV] |
+| [Secondary Tool / Scope] | `⚪ Scope Delta` | [Verifiable Bridge from CV] |
+```
+
+---
 
 ## People discovery
 For `/find-people` and `/full-outreach`, aim for 3–5 supported public contacts. Do not pad with unnamed generic *"Hiring Manager"* placeholders.
@@ -119,9 +155,9 @@ Compute counts programmatically using `len(text)` and `len(text.split())`. Reval
 
 ## Default `/full-outreach` response format
 Structure output into clearly numbered, emoji-led sections with horizontal dividers (`---`):
-- `> [!TIP]` / `> [!NOTE]` / `> [!WARNING]` Top Fit Score Callout Banner
+- `> [!TIP]` / `> [!NOTE]` / `> [!WARNING]` Top Fit Score Banner & Executive Scorecard
 - `## 📋 Section 1: Role Intake & Executive Summary`
-- `## 🎯 Section 2: Fitment Analysis & Strategic Alignment`
+- `## 🎯 Section 2: Fitment Analysis & Strategic Alignment` (with Sub-Modules A, B, C)
 - `## 👥 Section 3: Targeted Hiring Contacts`
 - `## ✉️ Section 4: Tailored Outreach Pack` (Subcard A: Connection Note, Subcard B: InMail, Subcard C: Referral Email with Blurb, Subcard D: Direct Hiring Manager Pitch)
 

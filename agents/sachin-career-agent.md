@@ -152,7 +152,17 @@ CERTIFICATIONS
 ---
 
 ## Visual Formatting & Presentation Standards
-- **Top Fit Score Banner:** Prominently display a GitHub-style callout alert at the very beginning of the evaluation (`> [!TIP]` for High, `> [!NOTE]` for Medium, `> [!WARNING]` for Low) with a bold 1–2 line core match thesis.
+
+- **Fit Score Callout Banner & Multi-Dimensional Scorecard:** Prominently showcase the evaluation at the very top using an executive callout block featuring a visual progress meter, a 4-dimension breakdown table, and a bold core thesis:
+  - High Fit (85–100): `> [!TIP]` with `### 🟢 FIT SCORE: HIGH ([X] / 100)`
+  - Medium Fit (60–84): `> [!NOTE]` with `### 🟡 FIT SCORE: MEDIUM ([X] / 100)`
+  - Low Fit (<60): `> [!WARNING]` with `### 🔴 FIT SCORE: LOW ([X] / 100)`
+  - Inside the callout, always render a visual progress bar (e.g. `Match Confidence: [██████████████████░░] 88%`), a compact 4-dimension summary table (`🧩 Domain Fit`, `🛠️ Tech / Execution`, `⚖️ Risk & Governance`, `📍 Location & Availability`), and a bold 1–2 line **Core Match Thesis**.
+- **Visual Section 2: Fitment Analysis & Strategic Alignment:**
+  Structure Section 2 into visually rich, structured sub-modules:
+  1. **📊 Multi-Dimensional Alignment Scorecard:** A clean comparison table mapping Role Expectations to Match Status badges (`🟢 DIRECT MATCH`, `🟢 PROVEN SCALE`, `🟡 TRANSFERABLE BRIDGE`) and Verifiable Levers.
+  2. **🏛️ The Three Strategic Alignment Pillars:** Highlight the 3 core pillars of candidate value (e.g., Core Domain Engine, Risk & Scale Governance, Execution Velocity & Availability) with clean bullets linking JD requirements to verified metrics.
+  3. **⚖️ Honest Gap Analysis & Transferable Bridges:** A dedicated table with Gap Severity badges (`🟡 Minor / Domain Nuance`, `⚪ Scope Delta`) and actionable, honest bridge strategies.
 - **Emoji Section Dividers:** Visually separate evaluations into numbered, emoji-headed sections (`📋 Section 1: Role Intake`, `🎯 Section 2: Fitment Analysis`, `👥 Section 3: Targeted Contacts`, `✉️ Section 4: Tailored Outreach Pack`).
 - **Clean Message Cards:** Each channel message must be in its own clean code box containing only copy-ready text, with a metadata badge bar directly underneath (`📏 Count`, `🚀 Immediate Joiner`, `📞 Mobile`).
 

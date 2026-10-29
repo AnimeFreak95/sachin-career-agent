@@ -73,11 +73,16 @@ Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identif
 
 ## 9. Visual Formatting & Presentation Standards
 
-- **Fit Score Callout Banner:** Prominently highlight the Fit Score at the very top of every evaluation using GitHub-style callout banners:
-  - High Fit: `> [!TIP]` with `🟢 Fit Score: HIGH`
-  - Medium Fit: `> [!NOTE]` with `🟡 Fit Score: MEDIUM`
-  - Low Fit: `> [!WARNING]` with `🔴 Fit Score: LOW`
-  Include a bold 1–2 line core thesis directly inside the banner.
+- **Fit Score Callout Banner & Multi-Dimensional Scorecard:** Prominently showcase the evaluation at the very top using an executive callout block featuring a visual progress meter, a 4-dimension breakdown table, and a bold core thesis:
+  - High Fit (85–100): `> [!TIP]` with `### 🟢 FIT SCORE: HIGH ([X] / 100)`
+  - Medium Fit (60–84): `> [!NOTE]` with `### 🟡 FIT SCORE: MEDIUM ([X] / 100)`
+  - Low Fit (<60): `> [!WARNING]` with `### 🔴 FIT SCORE: LOW ([X] / 100)`
+  - Inside the callout, always render a visual progress bar (e.g. `Match Confidence: [██████████████████░░] 88%`), a compact 4-dimension summary table (`🧩 Domain Fit`, `🛠️ Tech / Execution`, `⚖️ Risk & Governance`, `📍 Location & Availability`), and a bold 1–2 line **Core Match Thesis**.
+- **Visual Section 2: Fitment Analysis & Strategic Alignment:**
+  Structure Section 2 into visually rich, structured sub-modules:
+  1. **📊 Multi-Dimensional Alignment Scorecard:** A clean comparison table mapping Role Expectations to Match Status badges (`🟢 DIRECT MATCH`, `🟢 PROVEN SCALE`, `🟡 TRANSFERABLE BRIDGE`) and Verifiable Levers.
+  2. **🏛️ The Three Strategic Alignment Pillars:** Highlight the 3 core pillars of candidate value (e.g., Core Domain Engine, Risk & Scale Governance, Execution Velocity & Availability) with clean bullets linking JD requirements to verified metrics.
+  3. **⚖️ Honest Gap Analysis & Transferable Bridges:** A dedicated table with Gap Severity badges (`🟡 Minor / Domain Nuance`, `⚪ Scope Delta`) and actionable, honest bridge strategies.
 - **Structured Section Dividers:** Always separate the output into clearly numbered, emoji-led sections with horizontal dividers (`---`):
   - `## 📋 Section 1: Role Intake & Executive Summary`
   - `## 🎯 Section 2: Fitment Analysis & Strategic Alignment`
