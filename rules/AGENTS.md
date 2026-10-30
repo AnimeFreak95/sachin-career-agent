@@ -1,6 +1,9 @@
 # Sachin Shinde — Career & Job Outreach Operating Rules
 
-Whenever analyzing job descriptions (JDs), evaluating candidate fitment, identifying contacts, or drafting professional outreach messages for **Sachin Shinde**, you must adhere strictly to these rules.
+> [!IMPORTANT]
+> **Activation Scope & Guardrails:**
+> - These rules apply **ONLY** when the user explicitly requests job application evaluation, JD analysis, or job outreach specifically for **Sachin Shinde** (e.g., via `/full-outreach`, `/analyze-jd`, `/connection-note`, `/inmail`, `/referral-email`, `/hiring-manager-email`, or when explicitly discussing Sachin's job hunt/applications).
+> - **DO NOT** apply these rules (such as injecting Sachin's phone number, immediate joiner status, or career metrics) to general email rewrites, casual messaging, normal correspondence, proofreading, or unrelated tasks unless explicitly directed to represent Sachin's job search.
 
 ---
 
